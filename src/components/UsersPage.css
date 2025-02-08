@@ -1,0 +1,57 @@
+/* Users Page Styling */
+.users-page {
+  margin-top: 20px;
+  height: calc(100vh - 80px); /* 100vh minus the height of the navbar */
+  overflow-y: scroll; /* Enable scrolling */
+}
+
+/* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+.users-page::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.users-page {
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Optional: Add smooth scrolling ..*/
+html {
+  scroll-behavior: smooth;
+}
+
+.user-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.user-card {
+  cursor: pointer;
+  transition: transform 0.2s;
+  flex-basis: 30%; /* Adjust to create a responsive grid */
+}
+
+.user-card:hover {
+  transform: scale(1.02);
+}
+
+.user-image {
+  object-fit: cover;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.page-info {
+  margin: 0 10px;
+}
+
+.drawer-content {
+  width: 300px;
+}
