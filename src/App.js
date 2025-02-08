@@ -54,7 +54,7 @@ const NavBar = () => {
   );
 };
 
-// Protected Route Component
+// Protected Route Component.
 const ProtectedRoute = ({ element }) => {
   const isLoggedIn = useSelector((state) => state.auth.isLoggedIn);
   return isLoggedIn ? element : <Navigate to="/login" />;

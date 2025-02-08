@@ -10,7 +10,7 @@
   display: none;
 }
 
-/* Hide scrollbar for Firefox */
+/* Hide scrollbar for Firefox .*/
 .users-page {
   scrollbar-width: none; /* Firefox */
 }

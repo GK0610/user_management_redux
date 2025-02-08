@@ -43,10 +43,10 @@ const SignupPage = () => {
 
   return (
     <Box className="signup-page">
-      {/* Left Side - Background Image */}
+      {/* Left Side - Background Image. */}
       <Box className="signup-image"></Box>
 
-      {/* Right Side - Signup Form */}
+      {/* Right Side - Signup Form .*/}
       <Box className="signup-container">
         <Typography component="h1" variant="h5" sx={{ mb: 3, fontWeight: 'bold' }}>
           Sign Up

@@ -150,7 +150,7 @@ const UsersPage = () => {
           </Button>
         </Box>
 
-        {/* Drawer for User Details */}
+        {/* Drawer for User Details .*/}
         <Drawer anchor="right" open={drawerOpen} onClose={closeDrawer}>
           {selectedUser && (
             <Box className="drawer-content" p={3} sx={{ width: 300 }}>

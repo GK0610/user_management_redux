@@ -5,7 +5,7 @@ import './HomePage.css';
 const HomePage = () => {
   return (
     <div>
-      {/* Background Image. .*/}
+      {/* Background Image.. .*/}
       <div className="background-container"></div>
 
       {/* Content */}

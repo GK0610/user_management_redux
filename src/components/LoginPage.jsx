@@ -45,7 +45,7 @@ const LoginPage = () => {
 
   return (
     <Box className="login-page">
-      {/* Left Side - Background Image */}
+      {/* Left Side - .Background Image */}
       <Box className="login-image"></Box>
 
       {/* Right Side - Login Form */}

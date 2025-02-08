@@ -8,7 +8,7 @@
 html, body {
   width: 100%;
   height: 100%;
-  overflow: hidden; /* Prevent scrollbars .*/
+  overflow: hidden; /* Prevent scrollbars ..*/
 }
 
 /* Background container */
@@ -18,8 +18,8 @@ html, body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../assets/homepage.jpg'); /* Replace with your actual image path */
-  background-size: cover; /* Ensure the image stretches fully while maintaining proportions */
+  background-image: url('../assets/homepage.jpg'); 
+  background-size: cover; 
   background-position: center;
   background-repeat: no-repeat; /* Prevent tiling */
   z-index: -1; /* Place it behind the content */

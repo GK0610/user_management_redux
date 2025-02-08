@@ -1,4 +1,4 @@
-/* General styling for LoginPage */
+
 .login-page {
   display: flex;
   height: 100vh; /* Full viewport height */
@@ -9,7 +9,7 @@
 /* Left side: Background Image */
 .login-image {
   flex: 1;
-  background-image: url('../assets/login.png'); /* ✅ Make sure this path is correct */
+  background-image: url('../assets/login.png'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
